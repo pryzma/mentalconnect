@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/app.css" />
+        <link rel="icon" type="image/png" href="img/favicon.png" />
         <title> {{ config('app.name') }}</title>
 
     </head>
@@ -12,12 +13,12 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}"> <i class="fas fa-home"></i> Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('login') }}"> <i class="fas fa-sign-in-alt"></i> Login</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a href="{{ route('register') }}"> <i class="fas fa-user-plus"></i> Register</a>
                         @endif
                     @endauth
                 </div>
@@ -30,8 +31,8 @@
 
                 <div class="links">
               
-                    <a href="https://trello.com/b/KqZd6nte/mentalconnect">Trello</a>
-                    <a href="https://github.com/pryzma/mentalconnect">GitHub</a>
+                    <a href="https://trello.com/b/KqZd6nte/mentalconnect" target="_blank">Trello</a>
+                    <a href="https://github.com/pryzma/mentalconnect" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>
