@@ -9,6 +9,7 @@
 
     </head>
     <body>
+        <div class="hero-bkg-animated">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -35,6 +36,7 @@
                     <a href="https://github.com/pryzma/mentalconnect" target="_blank">GitHub</a>
                 </div>
             </div>
+        </div>
         </div>
     </body>
 </html>

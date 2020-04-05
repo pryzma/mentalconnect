@@ -12,8 +12,8 @@
     <link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
 <body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <div id="app" class="hero-bkg-animated">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <span class="inner">{{ config('app.name') }}</span>
