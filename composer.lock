@@ -4115,16 +4115,16 @@
         },
         {
             "name": "laravel-shift/blueprint",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-shift/blueprint.git",
-                "reference": "4e55afc7b5b1d0ad2920818900f6df935301033d"
+                "reference": "9419dd4c5a87631a82a5a16ef3adfd552f80cb4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/4e55afc7b5b1d0ad2920818900f6df935301033d",
-                "reference": "4e55afc7b5b1d0ad2920818900f6df935301033d",
+                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/9419dd4c5a87631a82a5a16ef3adfd552f80cb4e",
+                "reference": "9419dd4c5a87631a82a5a16ef3adfd552f80cb4e",
                 "shasum": ""
             },
             "require": {
@@ -4164,7 +4164,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-04-30T01:12:33+00:00"
+            "time": "2020-05-04T14:18:44+00:00"
         },
         {
             "name": "mockery/mockery",
