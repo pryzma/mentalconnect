@@ -212,7 +212,7 @@
                 "uppercase",
                 "words"
             ],
-            "time": "2020-05-11T11:25:59+00:00"
+            "time": "2020-05-09T15:09:09+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -2698,7 +2698,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-05-12T16:47:27+00:00"
+            "time": "2020-05-08T16:50:20+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
@@ -4128,16 +4128,16 @@
         },
         {
             "name": "laravel-shift/blueprint",
-            "version": "v1.10.1",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-shift/blueprint.git",
-                "reference": "e6579364fae6ae486e2d30dba9f4a0fb089871b6"
+                "reference": "202dabcc876552838b06b8e898bb9fb0de30b6e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/e6579364fae6ae486e2d30dba9f4a0fb089871b6",
-                "reference": "e6579364fae6ae486e2d30dba9f4a0fb089871b6",
+                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/202dabcc876552838b06b8e898bb9fb0de30b6e4",
+                "reference": "202dabcc876552838b06b8e898bb9fb0de30b6e4",
                 "shasum": ""
             },
             "require": {
@@ -4177,7 +4177,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-05-08T15:07:17+00:00"
+            "time": "2020-05-14T16:43:44+00:00"
         },
         {
             "name": "mockery/mockery",
