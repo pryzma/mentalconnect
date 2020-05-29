@@ -3492,20 +3492,20 @@
     "packages-dev": [
         {
             "name": "doctrine/cache",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "382e7f4db9a12dc6c19431743a2b096041bcdd62"
+                "reference": "35a4a70cd94e09e2259dfae7488afc6b474ecbd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/382e7f4db9a12dc6c19431743a2b096041bcdd62",
-                "reference": "382e7f4db9a12dc6c19431743a2b096041bcdd62",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/35a4a70cd94e09e2259dfae7488afc6b474ecbd3",
+                "reference": "35a4a70cd94e09e2259dfae7488afc6b474ecbd3",
                 "shasum": ""
             },
             "require": {
-                "php": "~7.1"
+                "php": "~7.1 || ^8.0"
             },
             "conflict": {
                 "doctrine/common": ">2.2,<2.4"
@@ -3570,7 +3570,7 @@
                 "redis",
                 "xcache"
             ],
-            "time": "2019-11-29T15:36:20+00:00"
+            "time": "2020-05-27T16:24:54+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -4128,16 +4128,16 @@
         },
         {
             "name": "laravel-shift/blueprint",
-            "version": "v1.12.0",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-shift/blueprint.git",
-                "reference": "cb93d7cfe1a5b32e3611b8c8aef9c66cd5866c33"
+                "reference": "8a321eb95fe502f4d4f5b8294c5ab0f47528289b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/cb93d7cfe1a5b32e3611b8c8aef9c66cd5866c33",
-                "reference": "cb93d7cfe1a5b32e3611b8c8aef9c66cd5866c33",
+                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/8a321eb95fe502f4d4f5b8294c5ab0f47528289b",
+                "reference": "8a321eb95fe502f4d4f5b8294c5ab0f47528289b",
                 "shasum": ""
             },
             "require": {
@@ -4177,7 +4177,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-05-22T00:52:02+00:00"
+            "time": "2020-05-25T16:29:49+00:00"
         },
         {
             "name": "mockery/mockery",
