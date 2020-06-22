@@ -5007,16 +5007,16 @@
         },
         {
             "name": "laravel-shift/blueprint",
-            "version": "v1.13.1",
+            "version": "v1.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-shift/blueprint.git",
-                "reference": "0e31025ee64a9e190a8f993930be74c31d36cdc7"
+                "reference": "0d82e120b60228a95f76aea5636c2f7fa04dff0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/0e31025ee64a9e190a8f993930be74c31d36cdc7",
-                "reference": "0e31025ee64a9e190a8f993930be74c31d36cdc7",
+                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/0d82e120b60228a95f76aea5636c2f7fa04dff0a",
+                "reference": "0d82e120b60228a95f76aea5636c2f7fa04dff0a",
                 "shasum": ""
             },
             "require": {
@@ -5056,7 +5056,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-06-12T15:05:24+00:00"
+            "time": "2020-06-19T18:04:17+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -5695,6 +5695,7 @@
                     "type": "github"
                 }
             ],
+
             "time": "2020-06-15T12:54:35+00:00"
         },
         {
@@ -5919,6 +5920,7 @@
                     "type": "github"
                 }
             ],
+
             "time": "2020-06-16T07:00:44+00:00"
         },
         {
@@ -6826,7 +6828,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
