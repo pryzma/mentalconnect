@@ -2972,16 +2972,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d"
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
                 "shasum": ""
             },
             "require": {
@@ -2993,7 +2993,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -3044,7 +3044,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
@@ -5126,16 +5126,16 @@
         },
         {
             "name": "laravel-shift/blueprint",
-            "version": "v1.15.1",
+            "version": "v1.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-shift/blueprint.git",
-                "reference": "f289ca7a4f46369661706cba168e8ef83c689103"
+                "reference": "66de68dd5a44d9fd9b222698f45699740ef6519a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/f289ca7a4f46369661706cba168e8ef83c689103",
-                "reference": "f289ca7a4f46369661706cba168e8ef83c689103",
+                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/66de68dd5a44d9fd9b222698f45699740ef6519a",
+                "reference": "66de68dd5a44d9fd9b222698f45699740ef6519a",
                 "shasum": ""
             },
             "require": {
@@ -5175,7 +5175,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-07-09T15:26:38+00:00"
+            "time": "2020-07-16T15:55:26+00:00"
         },
         {
             "name": "mockery/mockery",
