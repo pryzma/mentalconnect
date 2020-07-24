@@ -5253,16 +5253,16 @@
         },
         {
             "name": "laravel-shift/blueprint",
-            "version": "v1.15.2",
+            "version": "v1.15.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-shift/blueprint.git",
-                "reference": "66de68dd5a44d9fd9b222698f45699740ef6519a"
+                "reference": "7c8ccda6959d034c03b950f3e1518b22cceba2e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/66de68dd5a44d9fd9b222698f45699740ef6519a",
-                "reference": "66de68dd5a44d9fd9b222698f45699740ef6519a",
+                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/7c8ccda6959d034c03b950f3e1518b22cceba2e7",
+                "reference": "7c8ccda6959d034c03b950f3e1518b22cceba2e7",
                 "shasum": ""
             },
             "require": {
@@ -5270,6 +5270,7 @@
                 "illuminate/console": "^6.0|^7.0",
                 "illuminate/filesystem": "^6.0|^7.0",
                 "illuminate/support": "^6.0|^7.0",
+                "laravel-shift/faker-registry": "^0.1",
                 "symfony/yaml": "^4.3|^5.0"
             },
             "require-dev": {
@@ -5302,7 +5303,43 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-07-16T15:55:26+00:00"
+            "time": "2020-07-23T16:31:45+00:00"
+        },
+        {
+            "name": "laravel-shift/faker-registry",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-shift/faker-registry.git",
+                "reference": "051c1d50f428b699ee9456072f9c54cb073a006f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-shift/faker-registry/zipball/051c1d50f428b699ee9456072f9c54cb073a006f",
+                "reference": "051c1d50f428b699ee9456072f9c54cb073a006f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0|^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Shift\\Faker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason McCreary",
+                    "email": "jason@pureconcepts.net"
+                }
+            ],
+            "description": "A registry for generating Faker data from a name or data type.",
+            "time": "2020-07-23T16:20:46+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -7083,7 +7120,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.1.2",
+            "version": "v5.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
