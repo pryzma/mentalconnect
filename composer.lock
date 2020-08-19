@@ -5331,16 +5331,16 @@
         },
         {
             "name": "laravel-shift/blueprint",
-            "version": "v1.15.3",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-shift/blueprint.git",
-                "reference": "7c8ccda6959d034c03b950f3e1518b22cceba2e7"
+                "reference": "45503e8ccc76f5ebedce9a36029ccf0fb236cb5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/7c8ccda6959d034c03b950f3e1518b22cceba2e7",
-                "reference": "7c8ccda6959d034c03b950f3e1518b22cceba2e7",
+                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/45503e8ccc76f5ebedce9a36029ccf0fb236cb5e",
+                "reference": "45503e8ccc76f5ebedce9a36029ccf0fb236cb5e",
                 "shasum": ""
             },
             "require": {
@@ -5354,7 +5354,7 @@
             "require-dev": {
                 "mockery/mockery": "^1.3",
                 "orchestra/testbench": "^4.0|^5.0",
-                "phpunit/phpunit": "^8.0|^9.0"
+                "phpunit/phpunit": "^8.0"
             },
             "suggest": {
                 "jasonmccreary/laravel-test-assertions": "Required to use additional assertions in generated tests (^1.0)."
@@ -5381,7 +5381,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-07-23T16:31:45+00:00"
+            "time": "2020-08-13T15:52:26+00:00"
         },
         {
             "name": "laravel-shift/faker-registry",
