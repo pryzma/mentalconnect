@@ -5332,16 +5332,16 @@
         },
         {
             "name": "laravel-shift/blueprint",
-            "version": "v1.16.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-shift/blueprint.git",
-                "reference": "45503e8ccc76f5ebedce9a36029ccf0fb236cb5e"
+                "reference": "a0d0655cdfe367327415849ba8240fdcf3165705"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/45503e8ccc76f5ebedce9a36029ccf0fb236cb5e",
-                "reference": "45503e8ccc76f5ebedce9a36029ccf0fb236cb5e",
+                "url": "https://api.github.com/repos/laravel-shift/blueprint/zipball/a0d0655cdfe367327415849ba8240fdcf3165705",
+                "reference": "a0d0655cdfe367327415849ba8240fdcf3165705",
                 "shasum": ""
             },
             "require": {
@@ -5382,7 +5382,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-08-13T15:52:26+00:00"
+            "time": "2020-08-28T16:26:14+00:00"
         },
         {
             "name": "laravel-shift/faker-registry",
