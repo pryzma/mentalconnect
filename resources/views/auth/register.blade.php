@@ -9,13 +9,8 @@
 
                 <div class="card-body">
                     <p>Fill out the form below to create your MentalConnect account.</p>
-<<<<<<< HEAD
-                    <img src="img/cf9ca4f86212f59b4a08b0ffb9c4f606.jpg" />
-                    <form id="register_form" method="POST" action="{{ route('register') }}">
-=======
                     <img src="img/cf9ca4f86212f59b4a08b0ffb9c4f606.png" />
                     <form method="POST" action="{{ route('register') }}">
->>>>>>> a7167152e5da98f515bc85eac0c559c7516557d7
                         @csrf
 
                         <div class="form-group row">
