@@ -8,6 +8,8 @@
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
+                    <p>Fill out the form below to create your MentalConnect account.</p>
+                    <img src="img/cf9ca4f86212f59b4a08b0ffb9c4f606.jpg" />
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
