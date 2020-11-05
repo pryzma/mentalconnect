@@ -1896,6 +1896,17 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+function submitFormBtn(id) {
+  var form = $('#' + id + '_form'),
+      btn = $('#' + id + '_form_submit');
+  btn.on('click', function () {
+    return form.submit();
+  });
+}
+
+submitFormBtn('login');
+submitFormBtn('register');
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

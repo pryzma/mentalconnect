@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <form method="POST" action="{{ route('password.email') }}">
+                    <form id="email_password_form" method="POST" action="{{ route('password.email') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -30,15 +30,12 @@
                                 @enderror
                             </div>
                         </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Send Password Reset Link') }}
-                                </button>
-                            </div>
-                        </div>
                     </form>
+                </div>
+                <div class="card-footer">
+                  <button id="email_password_form_submit" type="submit" class="btn btn-primary float-right">
+                    {{ __('Send Password Reset Link') }}
+                  </button>
                 </div>
             </div>
         </div>

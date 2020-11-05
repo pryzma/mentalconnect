@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <p>Fill out the form below to create your MentalConnect account.</p>
                     <img src="img/cf9ca4f86212f59b4a08b0ffb9c4f606.jpg" />
-                    <form method="POST" action="{{ route('register') }}">
+                    <form id="register_form" method="POST" action="{{ route('register') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -65,12 +65,15 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
+                                
                             </div>
                         </div>
                     </form>
+                </div>
+                <div class="card-footer">
+                  <button id="register_form_submit" class="btn btn-primary float-right">
+                    {{ __('Register') }}
+                  </button>
                 </div>
             </div>
         </div>

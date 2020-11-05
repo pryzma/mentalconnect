@@ -5,10 +5,15 @@
   background-size: contain;
   width:100%;
   display: inline-block;
+  height: 70px;
 }
 
 .navbar-toggler{
   position: absolute;
   right: 25px;
   top: 10px;
+}
+
+.navbar-nav.ml-auto{
+  position: absolute;
 }
