@@ -74,12 +74,12 @@ html, body {
 .btn-primary{
   background: $gradient_blue;
 }
+.btn-primary:hover {
+  background: $gradient_blue_reverse;
+}
 .register_img{
   margin: auto;
   width: 400px;
   height: 300px;
   background: url($register_img) center no-repeat;
-}
-.btn-primary:hover {
-  background: $gradient_blue_reverse;
 }
