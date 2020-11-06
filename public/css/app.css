@@ -10008,18 +10008,6 @@ html, body {
   margin: 0;
 }
 
-.hero-bkg-animated {
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.hero-bkg-animated h1 {
-  font-family: sans-serif;
-}
-
 .full-height {
   height: 100vh;
 }
