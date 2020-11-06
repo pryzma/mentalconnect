@@ -10071,6 +10071,10 @@ html, body {
 }
 
 .btn-primary {
+  background: linear-gradient(to bottom, #0090a2 0%, #02658f 100%);
+}
+
+.btn-primary:hover {
   background: linear-gradient(to bottom, #02658f 0%, #0090a2 100%);
 }
 
@@ -10079,8 +10083,4 @@ html, body {
   width: 400px;
   height: 300px;
   background: url(/images/cf9ca4f86212f59b4a08b0ffb9c4f606.png?2ecb21a2bbdb6bb6911fe71b8aebdd68) center no-repeat;
-}
-
-.btn-primary:hover {
-  background: linear-gradient(to bottom, #0090a2 0%, #02658f 100%);
 }
