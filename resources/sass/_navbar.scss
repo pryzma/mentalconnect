@@ -1,5 +1,5 @@
 .navbar-brand{
-  background-image: url('/img/mentalconnect_logo_lg.png');
+  background-image: url($logo);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -16,4 +16,8 @@
 
 .navbar-nav.ml-auto{
   position: absolute;
+}
+
+.navbar-light{
+  background: $gradient_white_to_transparent;
 }
