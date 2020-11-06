@@ -1906,6 +1906,8 @@ function submitFormBtn(id) {
 
 submitFormBtn('login');
 submitFormBtn('register');
+submitFormBtn('reset');
+submitFormBtn('email_password');
 
 /***/ }),
 
