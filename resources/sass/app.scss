@@ -11,7 +11,7 @@
 @import 'navbar';
 
 html, body {
-  background: gray url($backgound) repeat 0 0;
+  background: gray url($background) repeat 0 0;
   color: #636b6f;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
@@ -27,17 +27,17 @@ html, body {
   text-align: center;
   height: 100%;
   box-sizing: border-box;
-  //animation: slide 20s linear infinite;
+  // animation: slide 20s linear infinite;
 }
 
 .hero-bkg-animated h1 {
   font-family: sans-serif;
 }
 
-@keyframes slide {
-    from { background-position: 0 0; }
-    to { background-position: 0 -400px; }
-}
+// @keyframes slide {
+//     from { background-position: 0 0; }
+//     to { background-position: 0 -400px; }
+// }
 
 .full-height {
   height: 100vh;
@@ -110,4 +110,7 @@ html, body {
   width: 400px;
   height: 300px;
   background: url($register_img) center no-repeat;
+}
+.btn-primary:hover {
+  background: $gradient_blue_reverse;
 }
