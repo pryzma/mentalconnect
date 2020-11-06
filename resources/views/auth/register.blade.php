@@ -65,12 +65,15 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
+                                
                             </div>
                         </div>
                     </form>
+                </div>
+                <div class="card-footer">
+                  <button id="register_form_submit" class="btn btn-primary float-right">
+                    {{ __('Register') }}
+                  </button>
                 </div>
             </div>
         </div>

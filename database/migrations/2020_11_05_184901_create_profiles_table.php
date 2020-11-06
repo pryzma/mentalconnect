@@ -20,7 +20,7 @@ class CreateProfilesTable extends Migration
             $table->string('last_name');
             $table->string('gender');
             $table->string('place_of_birth');
-            $table->string('place_of _residence');
+            $table->string('place_of_residence');
             $table->string('profile_picture');
             $table->string('header_image');
             $table->string('hobbys');
