@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header text-center">{{ __('Register') }}</div>
                 <div class="card-body">
                     <div class="register_img"></div>
                     <p class="lead">{{ __('Fill out the form below to create your MentalConnect account.') }}</p>
