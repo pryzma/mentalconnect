@@ -1896,19 +1896,26 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-function submitFormBtn(id) {
-  var form = $('#' + id + '_form'),
-      btn = $('#' + id + '_form_submit');
+function submitForm(id) {
+  var form = $("#".concat(id, "_form")),
+      btn = $("#".concat(id, "_form_submit"));
   btn.on('click', function () {
     return form.submit();
   });
+  return {
+    form: form,
+    btn: btn
+  };
 }
 
-$('.card-header,.lead').addClass('text-center');
-submitFormBtn('login');
-submitFormBtn('register');
-submitFormBtn('reset');
-submitFormBtn('email_password');
+var forms = new Object({});
+['login', 'register', 'reset', 'email_password'].forEach(function (form) {
+  return forms[form] = submitForm(form);
+}, function () {
+  forms.register.form.name.addEventListener('input', function (e) {
+    var name = e.target.value;
+  });
+});
 
 /***/ }),
 
