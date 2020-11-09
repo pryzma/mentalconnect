@@ -2,7 +2,12 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProfileMessageController;
+use App\Http\Controllers\ProfilePreferenceController;
+use App\Http\Controllers\ChatController;
+use App\Http\Controllers\ChatCategoryController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -15,6 +20,9 @@ use Illuminate\Support\Facades\Route;
 */
 Route::apiResources([
     'profiles' => ProfileController::class,
+    'preferences' => ProfilePreferenceController::class,
+    'role' => RoleController::class,
     'chat' => ChatController::class,
+    'message' => ProfileMessage::class,
     'connection' => ConnectionController::class,
 ]);
