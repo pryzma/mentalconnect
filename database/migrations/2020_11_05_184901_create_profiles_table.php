@@ -15,17 +15,18 @@ class CreateProfilesTable extends Migration
     {
         Schema::create('profiles', function (Blueprint $table) {
             $table->id();
-            $table->string('user_id');
+            $table->bigInteger('user_id');
+            $table->string('about');
             $table->string('first_name');
             $table->string('last_name');
             $table->string('gender');
+            $table->string('postal_code');
+            $table->string('country');
+            $table->string('date_of_birth');
             $table->string('place_of_birth');
             $table->string('place_of_residence');
-            $table->string('profile_picture');
-            $table->string('header_image');
             $table->string('hobbys');
             $table->string('interests');
-            $table->string('color_theme');
             $table->timestamps();
         });
     }
