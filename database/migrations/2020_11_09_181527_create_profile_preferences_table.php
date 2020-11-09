@@ -18,8 +18,8 @@ class CreateProfilePreferencesTable extends Migration
             $table->bigInteger('profile_id');
             $table->string('color_theme');
             $table->string('font');
-            $table->string('profile_picture');
-            $table->string('header_image');
+            $table->string('profile_picture')->nullable();
+            $table->string('header_image')->nullable();
             $table->timestamps();
         });
     }

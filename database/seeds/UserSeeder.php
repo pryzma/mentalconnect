@@ -1,7 +1,5 @@
 <?php
 
-namespace Database\Seeders;
-
 use Illuminate\Database\Seeder;
 use App\User;
 use Illuminate\Support\Facades\Hash;
@@ -34,6 +32,8 @@ class UserSeeder extends Seeder
         $firstUser->name = getenv('MENTALCONNECT_ADMIN_NAME');
         $firstUser->email = getenv('MENTALCONNECT_ADMIN_EMAIL');
         $firstUser->password = Hash::make(getenv('MENTALCONNECT_ADMIN_PASSWORD'));
+        $firstUser->profile_id = 1;
+        $firstUser->role_id = 1;
 
         $firstUser->save();
 
