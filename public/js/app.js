@@ -1904,7 +1904,6 @@ function submitFormBtn(id) {
   });
 }
 
-$('.card-header,.lead').addClass('text-center');
 submitFormBtn('login');
 submitFormBtn('register');
 submitFormBtn('reset');
