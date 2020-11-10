@@ -34,6 +34,7 @@
                     <a href="https://trello.com/b/KqZd6nte/mentalconnect" target="_blank">Trello</a>
                     <a href="https://github.com/pryzma/mentalconnect" target="_blank">GitHub</a>
                 </div>
+                <div class="landing_page_img"></div>
             </div>
         </div>
     </body>
