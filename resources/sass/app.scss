@@ -1,15 +1,6 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400&family=Amatic+SC:wght@700&family=Open+Sans:wght@300&display=swap');
-// Icons
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
-// Variables
 @import 'variables';
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-// navbar
+@import 'fonts';
 @import 'navbar';
-
 html, body {
   background: gray url($background) repeat 0 0;
   color: #636b6f;
@@ -39,7 +30,8 @@ html, body {
   text-align: center;
 }
 .title {
-  font-size: 84px;
+  width: $logo_width;
+  height: $logo_height;
   background-image: url($logo);
   background-repeat: no-repeat;
   background-position: center;
@@ -48,7 +40,7 @@ html, body {
   visibility: hidden;
 }
 .links > a {
-  color: #636b6f;
+  color: $grey;
   font-size: 20px;
   text-decoration: none;
   margin-right: 20px;
@@ -85,18 +77,14 @@ html, body {
 }
 .landing_page_img{
   position: absolute;
-  bottom: 0px;
-  width: 626px;
-  height: 334px;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  height: $landing_page_height;
   background: url($landing_page_img) center no-repeat;
 }
-@media only screen and (max-width: 680px) {
-  .landing_page_img{
-    position: absolute;
-    bottom: 0px;
-    width: 300px;
-    height: 200px;
-    background: url($landing_page_img) center no-repeat;
-    background-size: contain;
-  }
-}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~bootstrap/scss/bootstrap';

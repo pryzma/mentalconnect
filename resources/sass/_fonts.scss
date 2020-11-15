@@ -1,0 +1,6 @@
+@each $font in $fonts { 
+  $font_url:$font_url+$font+'|'; 
+}
+$font_url: $font_url+'&display=swap';
+//@import url($font_url);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');

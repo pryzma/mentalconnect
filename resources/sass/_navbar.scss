@@ -16,7 +16,18 @@
 
 .navbar-nav.ml-auto{
   position: absolute;
+  display: block;
 }
+
+.nav-item{
+  display:inline;
+  float: left;
+  width: 100px;
+  a {
+    color : $grey;
+  }
+}
+
 
 .navbar-light{
   background: $gradient_white_to_transparent;
