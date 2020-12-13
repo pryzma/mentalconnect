@@ -12,7 +12,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}"> <i class="fas fa-home"></i> Home</a>
+                        <a href="{{ url('/dashboard') }}"> <i class="fas fa-home"></i> Dashboard</a>
                     @else
                         <a href="{{ route('login') }}"> <i class="fas fa-sign-in-alt"></i> Login</a>
                         @if (Route::has('register'))

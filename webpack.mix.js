@@ -13,10 +13,11 @@ const mix = require('laravel-mix');
 
 //const mix = require('laravel-mix');
 const tailwindcss = require('tailwindcss')
-require('laravel-mix-string-replace');
+
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
+    .copy('resources/img/comp', 'public/images')
     .options({
         //processCssUrls: false,
         postCss: [ tailwindcss('./tailwind.config.js') ],
