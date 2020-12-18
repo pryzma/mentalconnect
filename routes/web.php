@@ -12,7 +12,9 @@ use App\Http\Controllers\SettingsController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::middleware('auth')->group(function () {
+  Route::get('/settings', [SettingsController::class, 'index'])->name('settings');
+});
 Route::get('/', function () {
     return view('welcome');
 });
