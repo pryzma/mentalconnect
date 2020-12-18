@@ -7,7 +7,7 @@ use App\Models\User;
 use App\Models\Team;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Hash;
-
+//use App\Resources\Env;
 class UserSeeder extends Seeder
 {
     /**
@@ -19,6 +19,7 @@ class UserSeeder extends Seeder
     {   
         $fields = ['USERNAME','NAME','EMAIL','PASSWORD'];
         $createUser = new User();
+        //Env::Seed($createUser,'MENTALCONNECT_ADMIN_',$fields)
         foreach($fields as $field){
           $fieldName = 'MENTALCONNECT_ADMIN_'.$field;
           if (!getenv($fieldName)) {
@@ -28,7 +29,7 @@ class UserSeeder extends Seeder
           if ( $field === 'PASSWORD' ){
             $val = Hash::make( $val );
           }
-          $createUser->createProperty(strtolower ( $field ),$val);
+          $createUser->createProperty(strtolower($field),$val);
         }
         $createUser->profile_id = 1;
         $createUser->role_id = 1;

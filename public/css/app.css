@@ -76,6 +76,7 @@ body {
   background-image: url(/images/mentalconnect_logo_lg.png?6ffb3859b5c106569c32891865ec5383);
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0;
 }
 
 .title .inner,
@@ -87,11 +88,18 @@ body {
   color: #636b6f;
   font-size: 20px;
   text-decoration: none;
-  margin-right: 20px;
+  padding: 10px;
 }
 
 .links > a:hover {
   color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: inset 0px 0px 5px #636b6f;
+  color: #636b6f;
+  border-radius: 5px;
 }
 
 .m-b-md {
@@ -132,7 +140,14 @@ body {
   left: 0;
   width: 100%;
   height: 334px;
-  background: url(/images/friends-guys-girls-flat-illustration_262199-3.png?007a0fe18933503d779a6fc2350fd62f) center no-repeat;
+  background: url(/images/connection.png?acb62863fa5f77c762b3c514891a94fb) no-repeat;
+}
+
+.splash {
+  background: url(/images/mentalconnect_splash.png?d4fbd680fe9cedc149d6b68619470dc6) no-repeat;
+  height: 500px;
+  width: 500px;
+  background-size: contain;
 }
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -31332,7 +31347,7 @@ video {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Ubuntu", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -31364,7 +31379,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -37672,7 +37687,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -37797,7 +37812,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;

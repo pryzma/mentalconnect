@@ -9,7 +9,8 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
-
+        <!-- Favicon -->
+        <link rel="icon" href="{{ URL::asset('favicon.ico') }}" type="image/x-icon"/>
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
@@ -23,7 +24,7 @@
             @livewire('navigation-dropdown')
 
             <!-- Page Heading -->
-            <header class="bg-white shadow">
+            <header class="shadow">
                 <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                     {{ $header }}
                 </div>
