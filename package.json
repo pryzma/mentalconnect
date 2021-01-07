@@ -20,14 +20,14 @@
         "popper.js": "^1.12",
         "postcss-import": "^14.0.0",
         "resolve-url-loader": "^3.1.0",
-        "sass": "^1.32.0",
+        "sass": "^1.32.2",
         "sass-loader": "^10.1.0",
         "string-replace-loader": "^3.0.0",
         "tailwindcss": "^2.0.2",
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "autoprefixer": "^10.1.0",
-        "postcss": "^8.2.2"
+        "autoprefixer": "^10.2.0",
+        "postcss": "^8.2.3"
     }
 }
